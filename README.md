@@ -10,7 +10,7 @@
 
 __Directory Structure:__
 
- - Use ```riscv_makefile.inc``` to modify GCC Toolchain Directory and RISC-V specific parameters as required. This repo supports both V and PSIMD compatible kernels but they are mutually exclusive. Use suitable toolchain's respectively (Switch the Toolchain path).
+ - Use ```riscv_makefile.inc``` to modify GCC Toolchain Directory and RISC-V specific parameters as required. This repo supports both V and PSIMD compatible kernels but they are mutually exclusive. Use suitable Toolchain respectively (Switch the Toolchain path).
   - Modify ```TARGET_ARCH=rv32gcp/rv32imp``` to enable PSIMD or ```TARGET_ARCH=rv32imv/rv32im_zve32x``` to enable V extension in ```riscv_makefile.inc```.
    - Run the below command to get required sources (TFLM, muriscv_nn, erap).
    

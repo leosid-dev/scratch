@@ -33,7 +33,7 @@ make compile
  ```bash
  make run
  ```
-  - Get the statistics of the generated ELF using Riscv Application Profiler using the below command.
+  - Get the statistics of the generated ELF using Riscv Application Profiler using the below command. Keep in mind to modify .yaml with correct ISA string ( in ```source_makefile.inc```)
   
   ```bash
   make erap

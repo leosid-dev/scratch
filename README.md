@@ -41,7 +41,7 @@ make compile
   <br>
   
   __Shorthand Command:__
-   - In short you can do the above with just this command.
+   - In short, you can do the above with just this command.
   ```bash
   make compile && make run && make erap
   ```

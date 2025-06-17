@@ -23,7 +23,10 @@
   # SSH with X11Forwarding for linux based distros
   -Install **openssh** (refer your distro's Package Manager to install- MOstly present by default)
   - Make sure X11Forwarding and TrustedX11Forwarding(Optional-Some distros require this to function properly) is **set to yes** in ```/etc/ssh/ssh_config```
-  - If you modified the file in previous step then enter this in terminal ```bash sudo systemctl restart ssh"
+  - If you modified the file in previous step then enter this in terminal
+  ```bash
+  sudo systemctl restart ssh
+  ```
   - Open a Terminal and type
   ```bash
   ssh -Y <username>@<ipaddress>

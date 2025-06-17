@@ -13,7 +13,7 @@
 - From Browser:
   - [Xming](https://sourceforge.net/projects/xming/files/Xming/6.9.0.31/Xming-6-9-0-31-setup.exe/download)
   - [puTTY](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.83-installer.msi)
-  - Then install them using the setup <br>
+  - Then install them using the setup <\n>
     **SSH CONNECTION**
     - Open Xming and Allow the UAC for port Access.
     - Open puTTY, In the left side, go to SSH->X11 and Enable X11Forwarding.

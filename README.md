@@ -20,7 +20,7 @@
     - Go back to Session enter the __ipaddress__ of the server given by the guide and save the session Session->Save and click Open.
     - Click Accept/Connect_Once and enter the __username__ of the server. After that enter the __password__ given by the guide.
     - Once connected, you are good to go. Open any GUI applications. (with few caveats specific to centos7 in the server)
-  # SSH with X11Forwarding for linux based distros
+# SSH with X11Forwarding for linux based distros
   ## Prerequisites:
  - Any Linux based Distro
   ## Instructions:
